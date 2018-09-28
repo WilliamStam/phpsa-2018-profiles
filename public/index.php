@@ -141,7 +141,7 @@ $kernel = new mostertb\PHPSA2018Profiles\Kernel();
                     <div class="media-body">
                         <h4 class="media-heading"><?php echo $fullname; ?></h4>
                         <p>
-                            <?php echo $profile->getBiography(); ?>
+                            <?php echo $kernel->clean($profile->getBiography(),"p,br,strong,em"); ?>
                         </p>
                         <?php
                         if (!empty($profile->getGitHubUsername())){

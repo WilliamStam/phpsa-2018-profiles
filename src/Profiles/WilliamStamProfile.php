@@ -23,7 +23,7 @@ class WilliamStamProfile extends AbstractProfile
      */
     public function getBiography()
     {
-        return 'William managed to get a job as a senior PHP developer at Munsoft, Munsoft being the ,brbiggest FMS system in Southern Africa.<br>'.
+        return 'William managed to get a job as a senior PHP developer at Munsoft, Munsoft being the, biggest FMS system in Southern Africa.<br>'.
             'He started his career with community publishers keeping them on track with the "big boys".<br>'.
 			'2018 is Williams \'s first PHP confrence';
     }
